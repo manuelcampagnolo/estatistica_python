@@ -8,5 +8,5 @@ y=np.array([0.894, 1.113, 0.908, 0.946, 0.976, 0.929, 0.870, 0.941, 0.864, 0.990
 # teste shapiro
 print(stats.shapiro(x-y))
 
-# t.test
+# t.test para amostras emparelhadas
 stats.ttest_rel(x,y,alternative="less")
